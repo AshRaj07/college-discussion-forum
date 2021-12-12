@@ -1,0 +1,28 @@
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sidebarOptions:hover{
+    background-color: lightgray;
+}
+
+.sidebarOptions > img {
+    height: 64px;
+    width: 64px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.sidebarOptions > h5 {
+    color: gray;
+    margin:auto 10px;
+}
+
+.sidebarOptions > .MuiSvgIcon-root {
+    margin-left: 20px;
+    color: gray;
+}

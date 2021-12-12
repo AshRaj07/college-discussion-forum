@@ -1,0 +1,56 @@
+.modal_info{
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.title{
+    color: gray;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.title:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.modal_p{
+    display: flex;
+    align-items: center;
+    margin: auto 10px;
+}
+
+.modal_p > p{
+    margin: auto 0px;
+}
+
+.modal_scope{
+    display: flex;
+    align-items: center;
+    color: rgb(98,98,98);
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+.modal_inputText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex:1;
+}
+
+.modal_inputLink{
+    color:gray;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;    
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
